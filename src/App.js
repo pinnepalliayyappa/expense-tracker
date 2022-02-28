@@ -38,7 +38,7 @@ import Expenses from './components/Expenses/expenses';
 
   return (
     <div>
-      //<h2>Let's get started!</h2>
+      
       <NewExpense onAddExpense={addExpenseHandler}/>
       <Expenses items={expenses} />
     </div>
