@@ -1,0 +1,8 @@
+a=int(input())
+b=list(map(int,input().split())
+s=[]
+for i in range(len(b),2):
+    c=[]
+    c.append(b[i],b[i+1])
+    s.append(c)
+print(s)
